@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7D1E12556755FAAA4C928D /* Pods_ArchShoppingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900A1903DDB14CE8B7730BBB /* Pods_ArchShoppingTests.framework */; };
+		6101ADBA240654D300013D0E /* SignInStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6101ADB9240654D300013D0E /* SignInStatus.swift */; };
+		6102418724166A90002184A0 /* ProductDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6102418624166A90002184A0 /* ProductDetailsTableViewController.swift */; };
+		6102418B241E5E6F002184A0 /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6102418A241E5E6F002184A0 /* ProductListTableViewCell.swift */; };
+		6145D69C24405978009EE6A6 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69B24405978009EE6A6 /* GMStepper.swift */; };
+		6145D69E24412397009EE6A6 /* NavControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69D24412397009EE6A6 /* NavControl.swift */; };
+		6145D6A024415FB4009EE6A6 /* CheckoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69F24415FB4009EE6A6 /* CheckoutTableViewController.swift */; };
+		615D4956249100A300114BFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 615D4955249100A300114BFB /* GoogleService-Info.plist */; };
+		615D4958249100CC00114BFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 615D4957249100CB00114BFB /* GoogleService-Info.plist */; };
+		616799132494E16800E6EBE9 /* ArchShoppingValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616799122494E16800E6EBE9 /* ArchShoppingValidatorTest.swift */; };
+		61679915249510F700E6EBE9 /* ArchShoppingSignUpTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61679914249510F700E6EBE9 /* ArchShoppingSignUpTest.swift */; };
+		616799172495D50400E6EBE9 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616799162495D50400E6EBE9 /* LoginModel.swift */; };
+		61691078250CDA41004634D6 /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61691077250CDA41004634D6 /* ColumnFlowLayout.swift */; };
+		616E800F247949DA0071DC18 /* PressReleaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616E800E247949DA0071DC18 /* PressReleaseViewController.swift */; };
+		616E8013247B9A8B0071DC18 /* PressReleaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616E8012247B9A8B0071DC18 /* PressReleaseTableViewController.swift */; };
+		617CE5C2240BC22700BA6A3F /* TheMartProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617CE5C1240BC22700BA6A3F /* TheMartProducts.swift */; };
+		617CE647240E333500BA6A3F /* ProductListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617CE646240E333500BA6A3F /* ProductListTableViewController.swift */; };
+		618EEA3F249604A600760B62 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EEA3E249604A600760B62 /* SignUpModel.swift */; };
+		618EEA412496177D00760B62 /* ArchShoppingLoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618EEA402496177D00760B62 /* ArchShoppingLoginTest.swift */; };
+		61A751FA246AA7B5003D5B46 /* storelocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A751F9246AA7B5003D5B46 /* storelocation.swift */; };
+		61A751FC246AB054003D5B46 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A751FB246AB054003D5B46 /* LocationModel.swift */; };
+		61A751FE246AB895003D5B46 /* StoreLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A751FD246AB895003D5B46 /* StoreLocationTableViewController.swift */; };
+		61A75200246ABF20003D5B46 /* StoreMapLocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A751FF246ABF20003D5B46 /* StoreMapLocatorViewController.swift */; };
+		61AFBEB0247D306F00DAC17F /* PressReleaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AFBEAF247D306F00DAC17F /* PressReleaseTableViewCell.swift */; };
+		61BBAAED23FF6C9B00A52D72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BBAAEC23FF6C9B00A52D72 /* LoginViewController.swift */; };
+		61BBAAEF23FFB7F500A52D72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BBAAEE23FFB7F500A52D72 /* SignUpViewController.swift */; };
+		61C1E53F23FDFFD20013D3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1E53E23FDFFD20013D3FB /* AppDelegate.swift */; };
+		61C1E54123FDFFD20013D3FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1E54023FDFFD20013D3FB /* SceneDelegate.swift */; };
+		61C1E54323FDFFD20013D3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1E54223FDFFD20013D3FB /* ViewController.swift */; };
+		61C1E54623FDFFD20013D3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C1E54423FDFFD20013D3FB /* Main.storyboard */; };
+		61C1E54923FDFFD20013D3FB /* ArchShopping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61C1E54723FDFFD20013D3FB /* ArchShopping.xcdatamodeld */; };
+		61C1E54B23FDFFD30013D3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C1E54A23FDFFD30013D3FB /* Assets.xcassets */; };
+		61C1E54E23FDFFD30013D3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C1E54C23FDFFD30013D3FB /* LaunchScreen.storyboard */; };
+		61D05629242623BF00A33E1A /* CheckoutCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D05628242623BF00A33E1A /* CheckoutCart.swift */; };
+		61D1F1BC2403545900CDD5BC /* validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D1F1BB2403545900CDD5BC /* validator.swift */; };
+		61D7CAB1240FE9CC00157DD9 /* ProductCategoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D7CAB0240FE9CC00157DD9 /* ProductCategoryCellTableViewCell.swift */; };
+		61E3A43B2453ABD600F3C447 /* SpecialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3A43A2453ABD600F3C447 /* SpecialsViewController.swift */; };
+		61E3A43D2453F58500F3C447 /* SpecialsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3A43C2453F58500F3C447 /* SpecialsCollectionViewCell.swift */; };
+		61F70ED82446DC6600E215CC /* PromoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F70ED72446DC6600E215CC /* PromoCollectionViewCell.swift */; };
+		79568C23E82BDBFA13A1FFEF /* Pods_ArchShopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB554B8DE0441AC300BB547D /* Pods_ArchShopping.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6167990D2494A3F000E6EBE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C1E53323FDFFD20013D3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C1E53A23FDFFD20013D3FB;
+			remoteInfo = ArchShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DEE2644D74D6DC36848D273 /* Pods-ArchShoppingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchShoppingTests.debug.xcconfig"; path = "Target Support Files/Pods-ArchShoppingTests/Pods-ArchShoppingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28C43F8634B14D3ADE86E88D /* Pods-ArchShopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchShopping.debug.xcconfig"; path = "Target Support Files/Pods-ArchShopping/Pods-ArchShopping.debug.xcconfig"; sourceTree = "<group>"; };
+		6101ADB9240654D300013D0E /* SignInStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInStatus.swift; sourceTree = "<group>"; };
+		6102418624166A90002184A0 /* ProductDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsTableViewController.swift; sourceTree = "<group>"; };
+		6102418A241E5E6F002184A0 /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		6145D69B24405978009EE6A6 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GMStepper.swift; path = Pods/GMStepper.swift; sourceTree = SOURCE_ROOT; };
+		6145D69D24412397009EE6A6 /* NavControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavControl.swift; sourceTree = "<group>"; };
+		6145D69F24415FB4009EE6A6 /* CheckoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTableViewController.swift; sourceTree = "<group>"; };
+		615D4955249100A300114BFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		615D4957249100CB00114BFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		616799082494A3F000E6EBE9 /* ArchShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6167990C2494A3F000E6EBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616799122494E16800E6EBE9 /* ArchShoppingValidatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchShoppingValidatorTest.swift; sourceTree = "<group>"; };
+		61679914249510F700E6EBE9 /* ArchShoppingSignUpTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchShoppingSignUpTest.swift; sourceTree = "<group>"; };
+		616799162495D50400E6EBE9 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		61691077250CDA41004634D6 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
+		616E800E247949DA0071DC18 /* PressReleaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressReleaseViewController.swift; sourceTree = "<group>"; };
+		616E8012247B9A8B0071DC18 /* PressReleaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressReleaseTableViewController.swift; sourceTree = "<group>"; };
+		617CE5C1240BC22700BA6A3F /* TheMartProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMartProducts.swift; sourceTree = "<group>"; };
+		617CE646240E333500BA6A3F /* ProductListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewController.swift; sourceTree = "<group>"; };
+		618EEA3E249604A600760B62 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		618EEA402496177D00760B62 /* ArchShoppingLoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchShoppingLoginTest.swift; sourceTree = "<group>"; };
+		61A751F9246AA7B5003D5B46 /* storelocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storelocation.swift; sourceTree = "<group>"; };
+		61A751FB246AB054003D5B46 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		61A751FD246AB895003D5B46 /* StoreLocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocationTableViewController.swift; sourceTree = "<group>"; };
+		61A751FF246ABF20003D5B46 /* StoreMapLocatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMapLocatorViewController.swift; sourceTree = "<group>"; };
+		61AFBEAF247D306F00DAC17F /* PressReleaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressReleaseTableViewCell.swift; sourceTree = "<group>"; };
+		61BBAAEC23FF6C9B00A52D72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		61BBAAEE23FFB7F500A52D72 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		61C1E53B23FDFFD20013D3FB /* ArchShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C1E53E23FDFFD20013D3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61C1E54023FDFFD20013D3FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61C1E54223FDFFD20013D3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61C1E54523FDFFD20013D3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61C1E54823FDFFD20013D3FB /* ArchShopping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArchShopping.xcdatamodel; sourceTree = "<group>"; };
+		61C1E54A23FDFFD30013D3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61C1E54D23FDFFD30013D3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61C1E54F23FDFFD30013D3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D05628242623BF00A33E1A /* CheckoutCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCart.swift; sourceTree = "<group>"; };
+		61D1F1BB2403545900CDD5BC /* validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validator.swift; sourceTree = "<group>"; };
+		61D7CAB0240FE9CC00157DD9 /* ProductCategoryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoryCellTableViewCell.swift; sourceTree = "<group>"; };
+		61E3A43A2453ABD600F3C447 /* SpecialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsViewController.swift; sourceTree = "<group>"; };
+		61E3A43C2453F58500F3C447 /* SpecialsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsCollectionViewCell.swift; sourceTree = "<group>"; };
+		61F70ED72446DC6600E215CC /* PromoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCollectionViewCell.swift; sourceTree = "<group>"; };
+		788F20570A11EE6463FE5C04 /* Pods-ArchShopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchShopping.release.xcconfig"; path = "Target Support Files/Pods-ArchShopping/Pods-ArchShopping.release.xcconfig"; sourceTree = "<group>"; };
+		900A1903DDB14CE8B7730BBB /* Pods_ArchShoppingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchShoppingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF51B1DB2CE68B7407680D38 /* Pods-ArchShoppingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchShoppingTests.release.xcconfig"; path = "Target Support Files/Pods-ArchShoppingTests/Pods-ArchShoppingTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB554B8DE0441AC300BB547D /* Pods_ArchShopping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchShopping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616799052494A3F000E6EBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7D1E12556755FAAA4C928D /* Pods_ArchShoppingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C1E53823FDFFD20013D3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79568C23E82BDBFA13A1FFEF /* Pods_ArchShopping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615D494E2490FD1600114BFB /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				61C1E54223FDFFD20013D3FB /* ViewController.swift */,
+				61F70ED72446DC6600E215CC /* PromoCollectionViewCell.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		615D494F2490FDAF00114BFB /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				61BBAAEE23FFB7F500A52D72 /* SignUpViewController.swift */,
+				61BBAAEC23FF6C9B00A52D72 /* LoginViewController.swift */,
+				616799162495D50400E6EBE9 /* LoginModel.swift */,
+				618EEA3E249604A600760B62 /* SignUpModel.swift */,
+				6101ADB9240654D300013D0E /* SignInStatus.swift */,
+				61D1F1BB2403545900CDD5BC /* validator.swift */,
+			);
+			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
+		615D49502490FDFA00114BFB /* PressReleaseTab */ = {
+			isa = PBXGroup;
+			children = (
+				616E800E247949DA0071DC18 /* PressReleaseViewController.swift */,
+				616E8012247B9A8B0071DC18 /* PressReleaseTableViewController.swift */,
+				61AFBEAF247D306F00DAC17F /* PressReleaseTableViewCell.swift */,
+			);
+			path = PressReleaseTab;
+			sourceTree = "<group>";
+		};
+		615D49512490FE1700114BFB /* StoreLocationTab */ = {
+			isa = PBXGroup;
+			children = (
+				61A751FF246ABF20003D5B46 /* StoreMapLocatorViewController.swift */,
+				61A751FD246AB895003D5B46 /* StoreLocationTableViewController.swift */,
+				61A751F9246AA7B5003D5B46 /* storelocation.swift */,
+				61A751FB246AB054003D5B46 /* LocationModel.swift */,
+			);
+			path = StoreLocationTab;
+			sourceTree = "<group>";
+		};
+		615D49522490FE4200114BFB /* SpecialsTab */ = {
+			isa = PBXGroup;
+			children = (
+				61E3A43C2453F58500F3C447 /* SpecialsCollectionViewCell.swift */,
+				61691077250CDA41004634D6 /* ColumnFlowLayout.swift */,
+				61E3A43A2453ABD600F3C447 /* SpecialsViewController.swift */,
+			);
+			path = SpecialsTab;
+			sourceTree = "<group>";
+		};
+		615D49592491027D00114BFB /* ProductTab */ = {
+			isa = PBXGroup;
+			children = (
+				6102418624166A90002184A0 /* ProductDetailsTableViewController.swift */,
+				617CE646240E333500BA6A3F /* ProductListTableViewController.swift */,
+				6102418A241E5E6F002184A0 /* ProductListTableViewCell.swift */,
+				61D7CAB0240FE9CC00157DD9 /* ProductCategoryCellTableViewCell.swift */,
+				617CE5C1240BC22700BA6A3F /* TheMartProducts.swift */,
+			);
+			path = ProductTab;
+			sourceTree = "<group>";
+		};
+		615D495A2491048D00114BFB /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				6145D69D24412397009EE6A6 /* NavControl.swift */,
+				61D05628242623BF00A33E1A /* CheckoutCart.swift */,
+				6145D69F24415FB4009EE6A6 /* CheckoutTableViewController.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		616799092494A3F000E6EBE9 /* ArchShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				616799122494E16800E6EBE9 /* ArchShoppingValidatorTest.swift */,
+				61679914249510F700E6EBE9 /* ArchShoppingSignUpTest.swift */,
+				618EEA402496177D00760B62 /* ArchShoppingLoginTest.swift */,
+				6167990C2494A3F000E6EBE9 /* Info.plist */,
+			);
+			path = ArchShoppingTests;
+			sourceTree = "<group>";
+		};
+		61C1E53223FDFFD20013D3FB = {
+			isa = PBXGroup;
+			children = (
+				61C1E53D23FDFFD20013D3FB /* ArchShopping */,
+				616799092494A3F000E6EBE9 /* ArchShoppingTests */,
+				61C1E53C23FDFFD20013D3FB /* Products */,
+				F2A434AC36C8557E87C8336A /* Pods */,
+				9F1985C681961B671ED95746 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61C1E53C23FDFFD20013D3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61C1E53B23FDFFD20013D3FB /* ArchShopping.app */,
+				616799082494A3F000E6EBE9 /* ArchShoppingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C1E53D23FDFFD20013D3FB /* ArchShopping */ = {
+			isa = PBXGroup;
+			children = (
+				61C1E54423FDFFD20013D3FB /* Main.storyboard */,
+				615D494F2490FDAF00114BFB /* LoginSignUp */,
+				615D494E2490FD1600114BFB /* HomeTab */,
+				615D49592491027D00114BFB /* ProductTab */,
+				615D49522490FE4200114BFB /* SpecialsTab */,
+				615D49512490FE1700114BFB /* StoreLocationTab */,
+				615D49502490FDFA00114BFB /* PressReleaseTab */,
+				615D495A2491048D00114BFB /* NavigationBar */,
+				615D4957249100CB00114BFB /* GoogleService-Info.plist */,
+				615D4955249100A300114BFB /* GoogleService-Info.plist */,
+				61C1E55523FDFFE80013D3FB /* Supporting Files */,
+				61C1E54F23FDFFD30013D3FB /* Info.plist */,
+			);
+			path = ArchShopping;
+			sourceTree = "<group>";
+		};
+		61C1E55523FDFFE80013D3FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61C1E53E23FDFFD20013D3FB /* AppDelegate.swift */,
+				61C1E54023FDFFD20013D3FB /* SceneDelegate.swift */,
+				61C1E54A23FDFFD30013D3FB /* Assets.xcassets */,
+				61C1E54C23FDFFD30013D3FB /* LaunchScreen.storyboard */,
+				61C1E54723FDFFD20013D3FB /* ArchShopping.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F1985C681961B671ED95746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB554B8DE0441AC300BB547D /* Pods_ArchShopping.framework */,
+				900A1903DDB14CE8B7730BBB /* Pods_ArchShoppingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2A434AC36C8557E87C8336A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28C43F8634B14D3ADE86E88D /* Pods-ArchShopping.debug.xcconfig */,
+				788F20570A11EE6463FE5C04 /* Pods-ArchShopping.release.xcconfig */,
+				6145D69B24405978009EE6A6 /* GMStepper.swift */,
+				0DEE2644D74D6DC36848D273 /* Pods-ArchShoppingTests.debug.xcconfig */,
+				DF51B1DB2CE68B7407680D38 /* Pods-ArchShoppingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616799072494A3F000E6EBE9 /* ArchShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6167990F2494A3F000E6EBE9 /* Build configuration list for PBXNativeTarget "ArchShoppingTests" */;
+			buildPhases = (
+				C939637639271F2DBE63A1A4 /* [CP] Check Pods Manifest.lock */,
+				616799042494A3F000E6EBE9 /* Sources */,
+				616799052494A3F000E6EBE9 /* Frameworks */,
+				616799062494A3F000E6EBE9 /* Resources */,
+				9B2D6E4C4A3A7F2CB8EF978A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6167990E2494A3F000E6EBE9 /* PBXTargetDependency */,
+			);
+			name = ArchShoppingTests;
+			productName = ArchShoppingTests;
+			productReference = 616799082494A3F000E6EBE9 /* ArchShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61C1E53A23FDFFD20013D3FB /* ArchShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C1E55223FDFFD30013D3FB /* Build configuration list for PBXNativeTarget "ArchShopping" */;
+			buildPhases = (
+				59AE56F5AC07C08DF55A65D1 /* [CP] Check Pods Manifest.lock */,
+				61C1E53723FDFFD20013D3FB /* Sources */,
+				61C1E53823FDFFD20013D3FB /* Frameworks */,
+				61C1E53923FDFFD20013D3FB /* Resources */,
+				ECD633A1834043C69FB35945 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchShopping;
+			productName = ArchShopping;
+			productReference = 61C1E53B23FDFFD20013D3FB /* ArchShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61C1E53323FDFFD20013D3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Chetan M Nagaraj";
+				TargetAttributes = {
+					616799072494A3F000E6EBE9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 61C1E53A23FDFFD20013D3FB;
+					};
+					61C1E53A23FDFFD20013D3FB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 61C1E53623FDFFD20013D3FB /* Build configuration list for PBXProject "ArchShopping" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61C1E53223FDFFD20013D3FB;
+			productRefGroup = 61C1E53C23FDFFD20013D3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61C1E53A23FDFFD20013D3FB /* ArchShopping */,
+				616799072494A3F000E6EBE9 /* ArchShoppingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616799062494A3F000E6EBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C1E53923FDFFD20013D3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C1E54E23FDFFD30013D3FB /* LaunchScreen.storyboard in Resources */,
+				615D4956249100A300114BFB /* GoogleService-Info.plist in Resources */,
+				615D4958249100CC00114BFB /* GoogleService-Info.plist in Resources */,
+				61C1E54B23FDFFD30013D3FB /* Assets.xcassets in Resources */,
+				61C1E54623FDFFD20013D3FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59AE56F5AC07C08DF55A65D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArchShopping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2D6E4C4A3A7F2CB8EF978A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchShoppingTests/Pods-ArchShoppingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchShoppingTests/Pods-ArchShoppingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchShoppingTests/Pods-ArchShoppingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C939637639271F2DBE63A1A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArchShoppingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD633A1834043C69FB35945 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchShopping/Pods-ArchShopping-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchShopping/Pods-ArchShopping-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchShopping/Pods-ArchShopping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616799042494A3F000E6EBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618EEA412496177D00760B62 /* ArchShoppingLoginTest.swift in Sources */,
+				616799132494E16800E6EBE9 /* ArchShoppingValidatorTest.swift in Sources */,
+				61679915249510F700E6EBE9 /* ArchShoppingSignUpTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C1E53723FDFFD20013D3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6101ADBA240654D300013D0E /* SignInStatus.swift in Sources */,
+				616799172495D50400E6EBE9 /* LoginModel.swift in Sources */,
+				61A75200246ABF20003D5B46 /* StoreMapLocatorViewController.swift in Sources */,
+				61BBAAEF23FFB7F500A52D72 /* SignUpViewController.swift in Sources */,
+				61E3A43B2453ABD600F3C447 /* SpecialsViewController.swift in Sources */,
+				61AFBEB0247D306F00DAC17F /* PressReleaseTableViewCell.swift in Sources */,
+				6145D69C24405978009EE6A6 /* GMStepper.swift in Sources */,
+				61691078250CDA41004634D6 /* ColumnFlowLayout.swift in Sources */,
+				617CE5C2240BC22700BA6A3F /* TheMartProducts.swift in Sources */,
+				61C1E54323FDFFD20013D3FB /* ViewController.swift in Sources */,
+				61A751FA246AA7B5003D5B46 /* storelocation.swift in Sources */,
+				61C1E53F23FDFFD20013D3FB /* AppDelegate.swift in Sources */,
+				61A751FC246AB054003D5B46 /* LocationModel.swift in Sources */,
+				61D1F1BC2403545900CDD5BC /* validator.swift in Sources */,
+				6102418B241E5E6F002184A0 /* ProductListTableViewCell.swift in Sources */,
+				61C1E54123FDFFD20013D3FB /* SceneDelegate.swift in Sources */,
+				61A751FE246AB895003D5B46 /* StoreLocationTableViewController.swift in Sources */,
+				61D7CAB1240FE9CC00157DD9 /* ProductCategoryCellTableViewCell.swift in Sources */,
+				61BBAAED23FF6C9B00A52D72 /* LoginViewController.swift in Sources */,
+				618EEA3F249604A600760B62 /* SignUpModel.swift in Sources */,
+				6145D69E24412397009EE6A6 /* NavControl.swift in Sources */,
+				616E8013247B9A8B0071DC18 /* PressReleaseTableViewController.swift in Sources */,
+				61C1E54923FDFFD20013D3FB /* ArchShopping.xcdatamodeld in Sources */,
+				61E3A43D2453F58500F3C447 /* SpecialsCollectionViewCell.swift in Sources */,
+				61D05629242623BF00A33E1A /* CheckoutCart.swift in Sources */,
+				616E800F247949DA0071DC18 /* PressReleaseViewController.swift in Sources */,
+				61F70ED82446DC6600E215CC /* PromoCollectionViewCell.swift in Sources */,
+				6102418724166A90002184A0 /* ProductDetailsTableViewController.swift in Sources */,
+				6145D6A024415FB4009EE6A6 /* CheckoutTableViewController.swift in Sources */,
+				617CE647240E333500BA6A3F /* ProductListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6167990E2494A3F000E6EBE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C1E53A23FDFFD20013D3FB /* ArchShopping */;
+			targetProxy = 6167990D2494A3F000E6EBE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61C1E54423FDFFD20013D3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C1E54523FDFFD20013D3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61C1E54C23FDFFD30013D3FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C1E54D23FDFFD30013D3FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		616799102494A3F000E6EBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEE2644D74D6DC36848D273 /* Pods-ArchShoppingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75257HU99;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ArchShoppingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chetan.ArchShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchShopping.app/ArchShopping";
+			};
+			name = Debug;
+		};
+		616799112494A3F000E6EBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF51B1DB2CE68B7407680D38 /* Pods-ArchShoppingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75257HU99;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ArchShoppingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chetan.ArchShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchShopping.app/ArchShopping";
+			};
+			name = Release;
+		};
+		61C1E55023FDFFD30013D3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61C1E55123FDFFD30013D3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61C1E55323FDFFD30013D3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C43F8634B14D3ADE86E88D /* Pods-ArchShopping.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75257HU99;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GMStepper/GMStepper.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Gemini/Gemini.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuthInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
+				INFOPLIST_FILE = ArchShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chetan.ArchShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61C1E55423FDFFD30013D3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788F20570A11EE6463FE5C04 /* Pods-ArchShopping.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75257HU99;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GMStepper/GMStepper.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Gemini/Gemini.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuthInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
+				INFOPLIST_FILE = ArchShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chetan.ArchShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6167990F2494A3F000E6EBE9 /* Build configuration list for PBXNativeTarget "ArchShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616799102494A3F000E6EBE9 /* Debug */,
+				616799112494A3F000E6EBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C1E53623FDFFD20013D3FB /* Build configuration list for PBXProject "ArchShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C1E55023FDFFD30013D3FB /* Debug */,
+				61C1E55123FDFFD30013D3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C1E55223FDFFD30013D3FB /* Build configuration list for PBXNativeTarget "ArchShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C1E55323FDFFD30013D3FB /* Debug */,
+				61C1E55423FDFFD30013D3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61C1E54723FDFFD20013D3FB /* ArchShopping.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61C1E54823FDFFD20013D3FB /* ArchShopping.xcdatamodel */,
+			);
+			currentVersion = 61C1E54823FDFFD20013D3FB /* ArchShopping.xcdatamodel */;
+			path = ArchShopping.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61C1E53323FDFFD20013D3FB /* Project object */;
+}
