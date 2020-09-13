@@ -15,7 +15,8 @@ class SpecialsCollectionViewCell: UICollectionViewCell {
     //Colection view container
     let containerView: UIView = {
         let view = UIView()
-        view.backgroundColor = .lightGray
+        view.backgroundColor = #colorLiteral(red: 0, green: 0.3285208941, blue: 0.5748849511, alpha: 1)      //.lightGray
+        
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -31,6 +32,8 @@ class SpecialsCollectionViewCell: UICollectionViewCell {
     
     // Add Image and label to container view and set constraints
     func configureViews() {
+        label.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        label.font = .boldSystemFont(ofSize: 16)
         contentView.addSubview(label)
         contentView.addSubview(specialsImage)
         addSubview(containerView)

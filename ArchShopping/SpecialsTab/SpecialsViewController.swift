@@ -12,15 +12,15 @@ class SpecialsViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     var naviBar = NavBar()     //setup navigation bar
     
-    var flowlayout = UICollectionViewFlowLayout()       //Colllection view flowlayout
+    var flowlayout = UICollectionViewFlowLayout()       //Collection view flowlayout
     
     var collectionView: UICollectionView!
     
-    let specials = [ ["Promo1","Promo2","Promo3","Promo4","Promo5","Promo6","Promo7","Promo8","Promo9","Promo10",],
-                     ["Promo1","Promo2","Promo3","Promo4","Promo5","Promo6","Promo7","Promo8","Promo9","Promo10"],
-                     ["Promo1","Promo2","Promo3","Promo4","Promo5","Promo6","Promo7","Promo8","Promo9","Promo10"],
-                     ["Promo1","Promo2","Promo3","Promo4","Promo5","Promo6","Promo7","Promo8","Promo9","Promo10"],
-                     ["Promo1","Promo2","Promo3","Promo4","Promo5","Promo6","Promo7","Promo8","Promo9","Promo10"],
+    let specials = [ ["Veggies on Special","Snacks on Special","Drinks on Special","Baby Products on Special","Super Foods on Special","Household on Special","Meals on Special","Books on Special","Baking on Special","Ice Cream on Special",],
+                     ["Fitness Trackers","Trendy Socks","Furniture Collection","Tech Needs","Bike Collection","Pick your Jeans","T-Shirt Collections","Toys","Fashion Accessories","Fitness Equipments"],
+                     ["Mango","Carrot","Milk","Yogurt","Brocolli","Watermelon","IceCream","Bread","Kiwi","Grapes"],
+                     ["10% Off First 50 Customers","Its Raining Deals!","Our Geeks can fix it!","Partner with us","Spring Sale!","Tech Bonanza","Hit the like button","Free Delivery!","Join the Club","We are in this together","Customer First.","Join out team","New Clothing Range","Gratude Program, Apply now!"],
+                     ["Mango","Carrot","Milk","Yogurt","Brocolli","Watermelon","IceCream","Bread","Kiwi","Grapes"],
     ]
     
     override func viewDidLoad() {
@@ -33,7 +33,7 @@ class SpecialsViewController: UIViewController, UICollectionViewDelegate, UIColl
         //Collection view
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createLayoutDiffSection())
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        collectionView.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
+        collectionView.backgroundColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
         collectionView.delegate = self
         collectionView.dataSource = self
         

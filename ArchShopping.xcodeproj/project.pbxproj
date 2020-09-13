@@ -11,6 +11,7 @@
 		6101ADBA240654D300013D0E /* SignInStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6101ADB9240654D300013D0E /* SignInStatus.swift */; };
 		6102418724166A90002184A0 /* ProductDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6102418624166A90002184A0 /* ProductDetailsTableViewController.swift */; };
 		6102418B241E5E6F002184A0 /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6102418A241E5E6F002184A0 /* ProductListTableViewCell.swift */; };
+		611F3DBE250DE39500AE7661 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 611F3DBD250DE39500AE7661 /* GoogleService-Info.plist */; };
 		6145D69C24405978009EE6A6 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69B24405978009EE6A6 /* GMStepper.swift */; };
 		6145D69E24412397009EE6A6 /* NavControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69D24412397009EE6A6 /* NavControl.swift */; };
 		6145D6A024415FB4009EE6A6 /* CheckoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69F24415FB4009EE6A6 /* CheckoutTableViewController.swift */; };
@@ -65,6 +66,7 @@
 		6101ADB9240654D300013D0E /* SignInStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInStatus.swift; sourceTree = "<group>"; };
 		6102418624166A90002184A0 /* ProductDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsTableViewController.swift; sourceTree = "<group>"; };
 		6102418A241E5E6F002184A0 /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		611F3DBD250DE39500AE7661 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6145D69B24405978009EE6A6 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GMStepper.swift; path = Pods/GMStepper.swift; sourceTree = SOURCE_ROOT; };
 		6145D69D24412397009EE6A6 /* NavControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavControl.swift; sourceTree = "<group>"; };
 		6145D69F24415FB4009EE6A6 /* CheckoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTableViewController.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				615D49522490FE4200114BFB /* SpecialsTab */,
 				615D49512490FE1700114BFB /* StoreLocationTab */,
 				615D49502490FDFA00114BFB /* PressReleaseTab */,
+				611F3DBD250DE39500AE7661 /* GoogleService-Info.plist */,
 				615D495A2491048D00114BFB /* NavigationBar */,
 				615D4957249100CB00114BFB /* GoogleService-Info.plist */,
 				615D4955249100A300114BFB /* GoogleService-Info.plist */,
@@ -385,6 +388,7 @@
 				615D4958249100CC00114BFB /* GoogleService-Info.plist in Resources */,
 				61C1E54B23FDFFD30013D3FB /* Assets.xcassets in Resources */,
 				61C1E54623FDFFD20013D3FB /* Main.storyboard in Resources */,
+				611F3DBE250DE39500AE7661 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

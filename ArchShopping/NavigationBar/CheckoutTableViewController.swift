@@ -135,7 +135,7 @@ class CheckoutTableViewController: UITableViewController {
                             
                             DispatchQueue.main.async
                                 {
-                                    let alert = UIAlertController(title: "Order Recieved!", message: "Thank you for your order!! please check email for confirmation.", preferredStyle: .alert)
+                                    let alert = UIAlertController(title: "Order Recieved!", message: "Thank you for your order!! please check email for order tracking number.", preferredStyle: .alert)
                                     alert.addAction(UIAlertAction(title: "OK", style: .cancel))
                                     self.present(alert, animated: true, completion: nil)
                                     
@@ -208,10 +208,10 @@ class CheckoutTableViewController: UITableViewController {
                 itemSum = Float(items.itemQuantity) * items.itemPrice
                 totalSum = totalSum + itemSum
             }
-            cell.textLabel?.text = "Total: " + String(totalSum)
+            cell.textLabel?.text = "Total: " + (NSString(format: "%.2f", totalSum) as String)    //String(totalSum)
             cell.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
         } else {
-            cell.textLabel?.text = cartItems[indexPath.row].itemName + " for Quantity " +  String(cartItems[indexPath.row].itemQuantity) + " at $" + String(cartItems[indexPath.row].itemPrice)
+            cell.textLabel?.text = cartItems[indexPath.row].itemName + " (Qty - " +  String(cartItems[indexPath.row].itemQuantity) + ") ----------------- $" + (NSString(format: "%.2f", cartItems[indexPath.row].itemPrice) as String)   //String(cartItems[indexPath.row].itemPrice)
             cell.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
         }
         return cell

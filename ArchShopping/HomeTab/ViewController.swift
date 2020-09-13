@@ -71,7 +71,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     //these are the current promotion names running for this e-commerce org(this can be maitaned in database and sourced as a JSON)
-    var promoList = ["Promo1","Promo2","Promo3","Promo4","Promo5","Promo6","Promo7","Promo8","Promo9","Promo10","Promo11","Promo12","Promo13","Promo14","Promo15","Promo16","Promo17","Promo18","Promo19","Promo20","Promo21","Promo22"]
+    var promoList = ["10% Off First 50 Customers","Its Raining Deals!","Our Geeks can fix it!","Partner with us","Spring Sale!","Tech Bonanza","Hit the like button","Free Delivery!","Join the Club","We are in this together","Customer First.","Join out team","New Clothing Range","Gratude Program, Apply now!","Its Raining Deals!","Our Geeks can fix it!","Partner with us","Spring Sale!","Tech Bonanza","Hit the like button","Free Delivery!","Join the Club"]
     
     
     //Below property are used for animation counter to display number of viewing a promotion

@@ -171,13 +171,13 @@ struct products {
         var dairyPrice: Double {
             switch self {
             case .Milk: return 3.45
-            case .Yogurt: return 3.45
-            case .Cheese: return 3.45
-            case .Butter: return 3.45
-            case .Cream: return 3.45
-            case .Custard: return 3.45
-            case .IceCream: return 3.45
-            case .WhippedCream: return 3.45
+            case .Yogurt: return 7.75
+            case .Cheese: return 8.50
+            case .Butter: return 2.45
+            case .Cream: return 4.25
+            case .Custard: return 6.90
+            case .IceCream: return 4.95
+            case .WhippedCream: return 5.50
             case .Margarine: return 3.45
             case .Eggs: return 3.45
             case .ColdCoffee: return 3.45
