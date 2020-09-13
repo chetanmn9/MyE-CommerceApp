@@ -62,10 +62,7 @@ class CheckoutTableViewController: UITableViewController {
     @IBAction func Order(_ sender: Any) {
         
         
-        let urlPath = "http://ec2-13-210-223-47.ap-southeast-2.compute.amazonaws.com/order.php"
-        //"http://ec2-3-25-76-168.ap-southeast-2.compute.amazonaws.com/order.php"
-        //http://ec2-13-238-254-148.ap-southeast-2.compute.amazonaws.com/order.php"
-        //"http://ec2-13-54-90-33.ap-southeast-2.compute.amazonaws.com/order.php" // locahost MAMP - change to point to your database server
+        let urlPath = "http://ec2-13-236-95-161.ap-southeast-2.compute.amazonaws.com/order.php"
         
         let url: URL = URL(string: urlPath)!
         var request = URLRequest(url: url)

@@ -17,10 +17,8 @@ class StoreLocation: NSObject {
         
     weak var delegate: StoreProtocol!
     
-    let urlPath = "http://ec2-13-210-223-47.ap-southeast-2.compute.amazonaws.com/service.php"
-    //"http://ec2-3-25-76-168.ap-southeast-2.compute.amazonaws.com/service.php"
-    //http://ec2-13-238-254-148.ap-southeast-2.compute.amazonaws.com/service.php"
-    //"http://ec2-13-54-90-33.ap-southeast-2.compute.amazonaws.com/service.php"
+    //MySql Database host php webservice to retrive store location cordinates
+    let urlPath = "http://ec2-13-236-95-161.ap-southeast-2.compute.amazonaws.com/service.php"
     
     func downloadedItems() {
         
@@ -30,15 +28,17 @@ class StoreLocation: NSObject {
         let task = defaultSession.dataTask(with: url) { (data, responds, error) in
             
             if error != nil {
-                print("failed to download data")
+                let loginFailAlert = UIAlertController(title: "No Stores Found!", message: "Unable to retrive store details!", preferredStyle: .alert)
+                loginFailAlert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
             } else {
-                print("Data Downloaded")
                 self.parseJSON(data!)
             }
+            
     }
         task.resume()
 }
-
+    
+    //JSON parsing
     func parseJSON(_ data: Data) {
         
         var jsonResult = NSArray()

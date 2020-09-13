@@ -4,7 +4,7 @@
 //
 //  Created by Chetan Melkote nagaraj on 12/5/20.
 //  Copyright © 2020 Chetan M Nagaraj. All rights reserved.
-//
+// 
 
 import UIKit
 
@@ -33,12 +33,10 @@ class StoreLocationTableViewController: UITableViewController, StoreProtocol {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return feedItems.count
     }
 
@@ -47,7 +45,6 @@ class StoreLocationTableViewController: UITableViewController, StoreProtocol {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "addressCell", for: indexPath)
         let item: LocationModel = feedItems[indexPath.row] as! LocationModel
-        // Get references to labels of cell
         cell.textLabel!.text = item.storeAddress
 
         return cell

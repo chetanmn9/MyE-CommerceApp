@@ -12,8 +12,10 @@ import CoreLocation
 
 class StoreMapLocatorViewController: UIViewController {
     
+    //Map view outlet
     @IBOutlet weak var mapView: MKMapView!
     
+    //close maps after finding location
     @IBAction func close(_ sender: Any) {
         presentingViewController?.dismiss(animated: true)
     }
@@ -25,6 +27,7 @@ class StoreMapLocatorViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //Initialize map view and plot store location(latitude and longitude) 
     override func viewDidAppear(_ animated: Bool) {
         
         var poiCoodinates = CLLocationCoordinate2D()

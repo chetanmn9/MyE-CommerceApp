@@ -18,8 +18,6 @@ class NavBar {
                     vc.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1), NSAttributedString.Key.font :UIFont(name: "HelveticaNeue-Bold" , size: 20)!]
 
 
-                    
-                    
                     let searchButton = UIButton()
                     searchButton.setImage(UIImage(systemName: "magnifyingglass"), for: .normal)
                     searchButton.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
