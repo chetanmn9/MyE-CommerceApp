@@ -11,7 +11,7 @@ import UIKit
 
 class LocationModel: NSObject {
 
-    //properties
+    //database table attributes
     
     var storeID: String?
     var storeName: String?

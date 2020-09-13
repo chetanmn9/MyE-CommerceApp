@@ -26,8 +26,7 @@ class PressReleaseTableViewController: UITableViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
-        
-        
+
         let semaphores = DispatchSemaphore(value: 0)
         let db = Firestore.firestore()
         
