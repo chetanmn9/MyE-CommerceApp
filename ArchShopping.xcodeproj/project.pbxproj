@@ -15,6 +15,10 @@
 		6145D69C24405978009EE6A6 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69B24405978009EE6A6 /* GMStepper.swift */; };
 		6145D69E24412397009EE6A6 /* NavControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69D24412397009EE6A6 /* NavControl.swift */; };
 		6145D6A024415FB4009EE6A6 /* CheckoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145D69F24415FB4009EE6A6 /* CheckoutTableViewController.swift */; };
+		6152E32E250F5B9C007007AD /* Demo_AddToCart_Purchase.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6152E32A250F5B9B007007AD /* Demo_AddToCart_Purchase.gif */; };
+		6152E32F250F5B9C007007AD /* Demo_CollectionView_Signup_Login.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6152E32B250F5B9B007007AD /* Demo_CollectionView_Signup_Login.gif */; };
+		6152E330250F5B9C007007AD /* Demo_Specials_CollectionView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6152E32C250F5B9B007007AD /* Demo_Specials_CollectionView.gif */; };
+		6152E331250F5B9C007007AD /* Demo_StoreLocator_PressRelease.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6152E32D250F5B9C007007AD /* Demo_StoreLocator_PressRelease.gif */; };
 		615D4956249100A300114BFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 615D4955249100A300114BFB /* GoogleService-Info.plist */; };
 		615D4958249100CC00114BFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 615D4957249100CB00114BFB /* GoogleService-Info.plist */; };
 		616799132494E16800E6EBE9 /* ArchShoppingValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616799122494E16800E6EBE9 /* ArchShoppingValidatorTest.swift */; };
@@ -70,6 +74,10 @@
 		6145D69B24405978009EE6A6 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GMStepper.swift; path = Pods/GMStepper.swift; sourceTree = SOURCE_ROOT; };
 		6145D69D24412397009EE6A6 /* NavControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavControl.swift; sourceTree = "<group>"; };
 		6145D69F24415FB4009EE6A6 /* CheckoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTableViewController.swift; sourceTree = "<group>"; };
+		6152E32A250F5B9B007007AD /* Demo_AddToCart_Purchase.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo_AddToCart_Purchase.gif; sourceTree = "<group>"; };
+		6152E32B250F5B9B007007AD /* Demo_CollectionView_Signup_Login.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo_CollectionView_Signup_Login.gif; sourceTree = "<group>"; };
+		6152E32C250F5B9B007007AD /* Demo_Specials_CollectionView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo_Specials_CollectionView.gif; sourceTree = "<group>"; };
+		6152E32D250F5B9C007007AD /* Demo_StoreLocator_PressRelease.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo_StoreLocator_PressRelease.gif; sourceTree = "<group>"; };
 		615D4955249100A300114BFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		615D4957249100CB00114BFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		616799082494A3F000E6EBE9 /* ArchShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +140,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6152E329250F5B63007007AD /* AppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6152E32A250F5B9B007007AD /* Demo_AddToCart_Purchase.gif */,
+				6152E32B250F5B9B007007AD /* Demo_CollectionView_Signup_Login.gif */,
+				6152E32C250F5B9B007007AD /* Demo_Specials_CollectionView.gif */,
+				6152E32D250F5B9C007007AD /* Demo_StoreLocator_PressRelease.gif */,
+			);
+			path = AppDemo;
+			sourceTree = "<group>";
+		};
 		615D494E2490FD1600114BFB /* HomeTab */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +271,7 @@
 				615D495A2491048D00114BFB /* NavigationBar */,
 				615D4957249100CB00114BFB /* GoogleService-Info.plist */,
 				615D4955249100A300114BFB /* GoogleService-Info.plist */,
+				6152E329250F5B63007007AD /* AppDemo */,
 				61C1E55523FDFFE80013D3FB /* Supporting Files */,
 				61C1E54F23FDFFD30013D3FB /* Info.plist */,
 			);
@@ -383,7 +403,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6152E331250F5B9C007007AD /* Demo_StoreLocator_PressRelease.gif in Resources */,
+				6152E330250F5B9C007007AD /* Demo_Specials_CollectionView.gif in Resources */,
+				6152E32F250F5B9C007007AD /* Demo_CollectionView_Signup_Login.gif in Resources */,
 				61C1E54E23FDFFD30013D3FB /* LaunchScreen.storyboard in Resources */,
+				6152E32E250F5B9C007007AD /* Demo_AddToCart_Purchase.gif in Resources */,
 				615D4956249100A300114BFB /* GoogleService-Info.plist in Resources */,
 				615D4958249100CC00114BFB /* GoogleService-Info.plist in Resources */,
 				61C1E54B23FDFFD30013D3FB /* Assets.xcassets in Resources */,
