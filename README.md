@@ -1,7 +1,12 @@
 # My E-Commerce App
 
-Home tab, sign up and login page 
-![](Demo_CollectionView_Signup_Login.gif)
+Home tab, sign up and login page | Add to cart and buy products
+------------ | -------------
+![](https://github.com/chetanmn9/MyE-CommerceApp/blob/master/ArchShopping/AppDemo/Demo_CollectionView_Signup_Login.gif) | ![](https://github.com/chetanmn9/MyE-CommerceApp/blob/master/ArchShopping/AppDemo/Demo_AddToCart_Purchase.gif)
+
+Specials tab(Compositional flow layout) | Store Locator and Press Release tab
+------------ | -------------
+![](https://github.com/chetanmn9/MyE-CommerceApp/blob/master/ArchShopping/AppDemo/Demo_Specials_CollectionView.gif) | ![](https://github.com/chetanmn9/MyE-CommerceApp/blob/master/ArchShopping/AppDemo/Demo_StoreLocator_PressRelease.gif)
 
 An e-commerce App that demonstrates features like promotions, product catalogues, store locations and press releases. App has capabilities of adding items to the cart, checkout order, register new customer, sign in and email the purchased order.
 
